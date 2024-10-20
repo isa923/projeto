@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:myapp/pages/produtospage.dart'; 
+import 'package:flutter/material.dart'; 
+import 'package:myapp/pages/produtospages.dart';
 
 class DateilPage extends StatefulWidget {
   const DateilPage({super.key});
