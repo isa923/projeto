@@ -96,8 +96,8 @@ class _TelaCadastrarState extends State<TelaCadastrar> {
                         validator: (value) {
                           if (value == null || value.isEmpty) {
                             return 'Campo senha obrigatório!';
-                          } else if (value.length < 6) {
-                            return 'A senha deve ter pelo menos 6 caracteres!';
+                          } else if (value.length < 4) {
+                            return 'A senha deve ter pelo menos 4 caracteres!';
                           }
                           return null;
                         },
@@ -114,8 +114,8 @@ class _TelaCadastrarState extends State<TelaCadastrar> {
                         validator: (value) {
                           if (value == null || value.isEmpty) {
                             return 'Campo confirmar senha obrigatório!';
-                          } else if (value.length < 6) {
-                            return 'A senha deve ter pelo menos 6 caracteres!';
+                          } else if (value.length < 4) {
+                            return 'A senha deve ter pelo menos 4 caracteres!';
                           } else if (value != senhaController.text) {
                             return 'As senhas não coincidem!';
                           }
@@ -139,10 +139,10 @@ class _TelaCadastrarState extends State<TelaCadastrar> {
                             String email = emailController.text;
                             String senha = senhaController.text;
 
-                            if (instituicao == 'ifal' &&
+                            if (instituicao == 'if' &&
                                 campus == 'Arapiraca' &&
-                                email == 'isp7@aluno.ifal.edu.br' &&
-                                senha == 'belisbelis') {
+                                email == '@aluno' &&
+                                senha == '1234') {
                               // Navegar p/ HomePage
                               Navigator.pushReplacement(
                                 context,
