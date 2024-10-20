@@ -56,7 +56,7 @@ class _DetailPageState extends State<DetailPage> {
                     children: [
                       buildText('Detalhes:',
                           style: TextStyle(fontWeight: FontWeight.bold)),
-                      SizedBox(width: 136),
+                      SizedBox(width: 168),
                       buildText('A partir de ',
                           style: TextStyle(fontWeight: FontWeight.bold)),
                       Text.rich(
@@ -100,7 +100,7 @@ class _DetailPageState extends State<DetailPage> {
                         backgroundColor: Color(0xffFF5757),
                         foregroundColor: Colors.white,
                         padding:
-                            EdgeInsets.symmetric(horizontal: 90, vertical: 20),
+                            EdgeInsets.symmetric(horizontal: 90, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
@@ -116,7 +116,7 @@ class _DetailPageState extends State<DetailPage> {
                         backgroundColor: Color(0xffCBCBCA),
                         foregroundColor: Colors.white,
                         padding:
-                            EdgeInsets.symmetric(horizontal: 125, vertical: 20),
+                            EdgeInsets.symmetric(horizontal: 125, vertical: 13),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),

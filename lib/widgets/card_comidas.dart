@@ -36,8 +36,7 @@ class _CardComidasState extends State<CardComidas> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 360,
-      height: 200, // Define uma largura fixa para o cartão
+      width: 360, // Define uma largura fixa para o cartão
       margin: const EdgeInsets.symmetric(
           horizontal: 8), // Espaçamento entre os cartões
       child: InkWell(
@@ -55,11 +54,10 @@ class _CardComidasState extends State<CardComidas> {
         },
         child: Card(
           color: Colors.white,
-          margin: const EdgeInsets.all(16),
+          margin: const EdgeInsets.all(7),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisSize: MainAxisSize
-                .min, // Garante que o cartão só ocupe o espaço necessário
+          //  mainAxisSize: MainAxisSize.min, // Garante que o cartão só ocupe o espaço necessário
             children: [
               ClipRRect(
                 borderRadius: BorderRadius.vertical(top: Radius.circular(4)),

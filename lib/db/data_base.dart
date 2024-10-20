@@ -52,7 +52,7 @@ class Database {
     ),
     OpcoesAlmoco(
       urlImagem:
-          'https://www.comidaereceitas.com.br/wp-content/uploads/2017/09/feijoada3-780x439.jpg',
+          'https://guiadacozinha.com.br/wp-content/uploads/2019/10/lasanha-bolonhesa.jpg',
       titulo: 'LASANHA',
       Descricao: 'SERVE 1 PESSOA',
       opcao: 'COMPRAR',

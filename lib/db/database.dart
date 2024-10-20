@@ -12,7 +12,7 @@ class Database {
         estabelecimento: 'Panificadora Rio Branco',
         avaliacao: '4.8 (281)',
         detalhes:
-            'Sopa composta por batatinha, cenoura, carne de gado, coentro'),
+            'Sopa composta por batatinha, cenoura, carne de gado e coentro'),
     Comidas(
         urlImagem:
             'https://instadelivery-public.nyc3.cdn.digitaloceanspaces.com/groups/1716491712664f95c0de90e.jpeg',
@@ -22,7 +22,7 @@ class Database {
         valorAtual: 1.99,
         estabelecimento: 'Restaurante do Dudu',
         avaliacao: '4.9 (1231)',
-        detalhes: 'Cuscuz composto por queijo, carne...'),
+        detalhes: 'Cuscuz composto por queijo, carne, cuscuz e alguns tempeiros'),
     Comidas(
         urlImagem:
             'https://renata.com.br/images/receitas/141/renata-imagem-receitas-lasanha-a-bolonhesa-share.jpg',
@@ -32,7 +32,7 @@ class Database {
         valorAtual: 3.99,
         estabelecimento: 'Panificadora da Ritinha',
         avaliacao: '4.8 (341)',
-        detalhes: 'Lasanha composta por macarrao, queijo, presunto, carne..'),
+        detalhes: 'Lasanha composta por macarrão, queijo, presunto, carne, ervilha, milho verde, molho branco e molho de tomate'),
     Comidas(
         urlImagem:
             'https://static.itdg.com.br/images/1200-630/97ca4129309c3f4b269068bf079c18b5/massa-de-panqueca-de-dois-ingredientes.jpeg',
@@ -42,7 +42,7 @@ class Database {
         valorAtual: 1.99,
         estabelecimento: 'Restaurante João de Barro',
         avaliacao: '4.7 (1067)',
-        detalhes: 'Panqueca composta por massa, queijo e frango'),
+        detalhes: 'Panqueca composta por massa, queijo, presunto, molho de tomate e frango'),
     Comidas(
         urlImagem:
             'https://www.receiteria.com.br/wp-content/uploads/arroz-de-forno-com-frango-facil.jpg',
@@ -50,7 +50,7 @@ class Database {
         descricao: 'Prove o melhor arroz de forno da região',
         valorAntigo: 4.99,
         valorAtual: 2.99,
-        estabelecimento: 'Pratos da Ana',
+        estabelecimento: 'Pratos da Aninha',
         avaliacao: '4.8 (677)',
         detalhes:
             'Arroz de forno composto por arroz, queijo, presunto, frango, milho verde e orégano')
